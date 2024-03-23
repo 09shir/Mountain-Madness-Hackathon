@@ -11,3 +11,79 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.meeting-full-page {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px; 
+  box-sizing: border-box; 
+}
+
+.meeting-header h1 {
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+}
+
+.meeting-header p {
+  font-size: 1.5em; 
+  margin-bottom: 3em;
+}
+
+.meeting-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px; 
+}
+
+.meeting-join,
+.meeting-host {
+  text-align: center;
+  width: 30%; 
+}
+
+h2 {
+  margin: 0;
+  font-size: 2.5em; 
+}
+
+p {
+  margin: 1em 0 2em; 
+  font-size: 1.2em; 
+}
+
+.btn {
+  padding: 20px 40px;
+  border: none;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1.2em; 
+  transition: background-color 0.3s;
+  display: block; 
+  width: 80%; 
+  margin: auto; 
+  display: flex;
+  justify-content: center;
+}
+
+.btn:hover {
+  background-color: #e69500; 
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+
